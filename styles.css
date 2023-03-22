@@ -1,0 +1,28 @@
+p.title {
+    animation-name: fadein;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-duration: 4s;
+    animation-delay: 2s;
+
+    @keyframes fadein {
+       
+        0%{Left: 0px;top: 0px;}
+        50%{Left: 200px;top: 0px;}
+    }
+
+    color: rgb(21, 59, 228);
+    font-size: 72px;
+    font-weight: bolder;
+}
+
+p.blocktext {
+    font-size: 40px;
+
+}
+
+p.subtitles {
+    color: red;
+    font-size: 50px;
+    font-weight: bolder;
+}
